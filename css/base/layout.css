@@ -27,7 +27,7 @@ nav {
 }
 
 .hero-img {
-    background-image: url(./img/hero_img.png); 
+    background-image: url(/img/hero_img.png); 
     margin-left: 60px; 
     margin-right: 60px;
     background-position: center;
@@ -100,6 +100,27 @@ nav {
 }
 
 @media ( max-width: 500px ) {
+    .hero-text p {
+        font-size: 8px;
+    }
+    .hero-text {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    header, .container  {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .hero-img {
+        margin-left: 20px; 
+    margin-right: 20px;
+    }
+    .question-botton {
+        display: inline-block;
+    }
     
 
 }
