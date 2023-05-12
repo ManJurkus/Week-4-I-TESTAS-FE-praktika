@@ -27,7 +27,7 @@ nav {
 }
 
 .hero-img {
-    background-image: url(/img/hero_img.png); 
+    background-image: url(./img/hero_img.png); 
     margin-left: 60px; 
     margin-right: 60px;
     background-position: center;
