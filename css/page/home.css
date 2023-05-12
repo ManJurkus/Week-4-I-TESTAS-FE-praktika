@@ -1,0 +1,64 @@
+@import "../base/base.css";
+@import "../base/layout.css";
+@import "../coponents/font-awesome.min.css";
+
+h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+header a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+}
+
+.meniu-logo {
+    height: 20px;
+}
+
+.hero-text p {
+    font-size: 25px;
+}
+
+.hero-botton a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 6px;
+    margin-right: 6px;
+    
+}
+
+h2 {
+    font-size: 35px;
+    text-align: center;
+    padding-bottom: 60px;
+    
+}
+
+.column-all p {
+    text-align: center;
+}
+
+.p-question {
+color: #000000;
+font-size: 32px;
+font-weight: bold;
+padding-bottom: 25px;
+}
+
+.answer {
+    font-size: 24px;
+}
+
+.question-botton a {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 8px;
+    border-radius: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: 6px;
+    margin-right: 6px;
+}

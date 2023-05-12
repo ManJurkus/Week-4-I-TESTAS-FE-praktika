@@ -1,0 +1,101 @@
+main {
+    width: 100%;
+}
+
+header {
+    width: 100%;
+    padding: 60px;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 60px;
+    line-height: 20px;
+    padding-bottom: 20px;
+}
+
+nav {
+    display: flex;
+    gap: 40px;
+}
+
+.meniu-logo2 {
+    display: none;
+}
+
+.hero-img {
+    background-image: url(/img/hero_img.png); 
+    margin-left: 60px; 
+    margin-right: 60px;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 90px;
+    border-radius: 20px;
+    
+    
+}
+.hero-text {
+    display: flex;
+    flex-direction:column;
+    gap:30px;
+    text-align: center;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+
+    
+}
+
+.container {
+    width: 100%;
+    padding: 60px;
+}
+
+.column{
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-between;
+    gap:20px;
+    
+
+}
+
+.column img {
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.container .question {
+   gap:80px;
+   padding: 40px;
+
+
+}
+
+.question-botton {
+    text-align: center;
+}
+
+@media ( max-width: 700px ) {
+    header nav {
+        display: none;
+    }
+    header .meniu-logo2 {
+        display:block;
+        height: 20px;
+    }
+    .column {
+        display: block;
+    }
+    .column-all p {
+        margin-bottom: 22px;
+    }
+    
+
+}
+
